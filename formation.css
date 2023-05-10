@@ -1,0 +1,65 @@
+body {
+  background-image: url("./assets/Realm_of_Darkness_View_BBSFM.webp");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: auto;
+  width: auto;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 75px;
+  width: 200px;
+  background: rgb(12, 13, 13);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 13, 13, 1) 0%,
+    rgba(45, 129, 253, 1) 100%
+  );
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+.button:hover {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: rgb(12, 13, 13);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 13, 13, 1) 0%,
+    rgba(253, 156, 45, 1) 100%
+  );
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(216, 175, 40);
+}
+
+img {
+  height: 150px;
+  width: 100px;
+}
+
+h1 {
+  font-size: 30px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: aliceblue;
+}
+p {
+  font-size: 15px;
+  color: rgb(255, 255, 255);
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}

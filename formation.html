@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="formation.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <center>
+      <h1>War Formation</h1>
+      <h2>
+        <button class="button affinitylay" , id="warDivButton">Vanguard</button>
+        <p class="warButtonText"></p>
+        <br />
+        <img src="./assets/Larxene_29.webp" alt="Larxene" /><img
+          src="./assets/Xemnas_29.webp"
+          alt="xemnas"
+        />
+        <img src="./assets/Marluxia_29.webp" alt="Marluxia" />
+      </h2>
+      <br />
+      <h2>
+        <button class="button affinitylay" , id="platoonDivButton">
+          Platoon
+        </button>
+        <p class="platoonButtonText"></p>
+        <br /><img src="./assets/Demyx_29.webp" alt="Demyx" /><img
+          src="./assets/Roxas_(card).webp"
+          alt="Roxas"
+        />
+        <img src="./assets/Luxord_(card).webp" alt="Luxord" />
+      </h2>
+      <br />
+      <h2>
+        <button class="button affinitylay" , id="supportDivButton">
+          Support
+        </button>
+        <p class="supportButtonText"></p>
+        <br />
+        <img src="./assets/Vexen_29.webp" alt="Vexen_29" />
+        <img src="./assets/Zexion_29.webp" alt="Zexion" />
+      </h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <h1>Peace Formation</h1>
+      <h2>
+        <button class="button affinitylay" , id="peaceDivButton">
+          Speaker
+        </button>
+        <p class="peaceButtonText"></p>
+        <br />
+        <img src="./assets/Zexion_29.webp" alt="Zexion" />
+        <img src="./assets/Roxas_(card).webp" alt="Roxas" />
+        <img src="./assets/Vexen_29.webp" alt="Vexen" />
+      </h2>
+      <br />
+      <h2>
+        <button class="button affinitylay" , id="guardianDivButton">
+          Guardian
+        </button>
+        <p class="guardianButtonText"></p>
+        <br />
+        <img src="./assets/Marluxia_29.webp" alt="Marluxia" />
+        <img src="./assets/Demyx_29.webp" alt="Demyx" />
+        <img src="./assets/Luxord_(card).webp" alt="Luxord" />
+      </h2>
+      <br />
+      <h2>
+        <br />
+        <button class="button affinitylay" , id="seerDivButton">Seer</button>
+        <p class="seerButtonText"></p>
+        <img src="./assets/Larxene_29.webp" alt="Larxene" />
+        <img src="./assets/Xemnas_29.webp" alt="xemnas" />
+      </h2>
+      <footer>
+        <form action="./index.html">
+          <button class="button affinitylay">Main Menu</button>
+        </form>
+        <br />
+      </footer>
+    </center>
+  </body>
+
+  <script>
+    const warDivButton = document.getElementById("warDivButton");
+
+    warDivButton.addEventListener("click", warButton);
+
+    function warButton() {
+      const warButtonText = document.querySelector(".warButtonText");
+      warButtonText.innerHTML =
+        "Xemnas is the main lead in the vanguard. He have Larxene and Marluxia supporting him in the front. Due to Larxene's impulsiveness, he can command her and have her follow his command. That way, she can be in control and it would not break their synergy. Marluxia is a fair fit for both of them.";
+    }
+
+    const platoonDivButton = document.getElementById("platoonDivButton");
+
+    platoonDivButton.addEventListener("click", platoonButton);
+
+    function platoonButton() {
+      const platoonButtonText = document.querySelector(".platoonButtonText");
+      platoonButtonText.innerHTML =
+        "All three of them are low maintenance. They don't have a lot of problems with each other and they play off of each other. They share many similarities and they can back up the Vanguard if they need assistance. Roxas will lead the charge as he's someone who is compelled to help people. Luxord and Demyx will follow him and support him in his endeavor.";
+    }
+
+    const supportDivButton = document.getElementById("supportDivButton");
+
+    supportDivButton.addEventListener("click", supportButton);
+
+    function supportButton() {
+      const supportButtonText = document.querySelector(".supportButtonText");
+      supportButtonText.innerHTML =
+        "Zexion and Vexen works well together. Zexion may be young, but his age wouldn't discourage his ability to be adaptable to new teams. Vexen is too harsh on details, but Zexion is able to work with it. This in turns will allow Vexen to go further into information and relay any information to his team. Zexion is able to convert that information from Vexen's heavily detailed information into digestible information.";
+    }
+
+    const peaceDivButton = document.getElementById("peaceDivButton");
+
+    peaceDivButton.addEventListener("click", peaceButton);
+
+    function peaceButton() {
+      const peaceButtonText = document.querySelector(".peaceButtonText");
+      peaceButtonText.innerHTML =
+        "Zexion, Roxas, and Vexen are the best peace speaker. Vexen is meticulious in changes and policies. Zexion is quick to learn and able to work well with Vexen. They both get along very well. Roxas doesn't have any negative energy with anyone. Roxas's empathy will allow a smoother and easier flow in terms of peace discussion. Roxas will usually lead the conversation. Zexion will be the bridge between Roxas and Vexen in terms of information and politics.";
+    }
+
+    const guardianDivButton = document.getElementById("guardianDivButton");
+
+    guardianDivButton.addEventListener("click", guardianButton);
+
+    function guardianButton() {
+      const guardianButtonText = document.querySelector(".guardianButtonText");
+      guardianButtonText.innerHTML =
+        "Marluxia, Luxord, and Demyx all get along. They can work in between the front and the back of the team during peace talk. If the Peace team needs more people to assit, the Guardian team can fill in any spot to further assist Peace team. If they need more speakers, they have them as backup. They can also act as bodyguards when they do peace treaties or any peace talk. They are always reliable and people who can ensure the room is safe and free.";
+    }
+
+    const seerDivButton = document.getElementById("seerDivButton");
+
+    seerDivButton.addEventListener("click", seerButton);
+
+    function seerButton() {
+      const seerButtonText = document.querySelector(".seerButtonText");
+      seerButtonText.innerHTML =
+        "Team Seer consist of Larxene and Xemnas. Although Xemnas is leader material, he can't be in every meeting. People in the Peace team usually fill in that spot on his behalf. Larxene always thirst for battle and war. She thrives in it, but when it comes down to peace talk she gets fidgety. Xemnas is there to calm her down in case she becomes a loose cannon. Due to their great relationship, they both understand each other's worth. If things gets out of hand, they will both come in and make any necessary changes.";
+    }
+  </script>
+</html>

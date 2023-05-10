@@ -1,0 +1,60 @@
+body {
+  background-image: url("./assets/main-menu-kh.webp");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 75px;
+  width: 200px;
+  background: rgb(12, 13, 13);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 13, 13, 1) 0%,
+    rgba(45, 129, 253, 1) 100%
+  );
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+.button:hover {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: rgb(12, 13, 13);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 13, 13, 1) 0%,
+    rgba(253, 156, 45, 1) 100%
+  );
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(216, 175, 40);
+}
+
+.affinitylay {
+  position: absolute;
+  top: 300px;
+  left: 800px;
+}
+.formationlay {
+  position: absolute;
+  top: 300px;
+  left: 325px;
+}
+
+h1 {
+  color: antiquewhite;
+}

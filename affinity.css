@@ -1,0 +1,90 @@
+body {
+  background-image: url("./assets/kh_seat.jpg");
+  background-repeat: no-repeat;
+  color: rgba(170, 173, 206, 255);
+  background-color: rgba(170, 173, 206, 255);
+  position: absolute;
+  background-position: 550px 250px;
+}
+
+.button {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  height: 75px;
+  width: 200px;
+  background: rgb(12, 13, 13);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 13, 13, 1) 0%,
+    rgba(45, 129, 253, 1) 100%
+  );
+  cursor: pointer;
+  border-radius: 5px;
+  border-style: solid;
+  border-color: black;
+}
+.button:hover {
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  background: rgb(12, 13, 13);
+  background: linear-gradient(
+    0deg,
+    rgba(12, 13, 13, 1) 0%,
+    rgba(253, 156, 45, 1) 100%
+  );
+  border-radius: 5px;
+  border-style: solid;
+  border-color: rgb(216, 175, 40);
+}
+
+.affinitylay {
+  position: absolute;
+  top: 300px;
+  left: 800px;
+}
+.formationlay {
+  position: absolute;
+  top: 300px;
+  left: 325px;
+}
+
+h1 {
+  color: antiquewhite;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #00ccff;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td,
+table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #00ccff;
+  border-style: solid;
+  padding: 3px;
+}
+
+table.GeneratedTable thead {
+  background-color: #00ccff;
+}
+
+img {
+  width: 100px;
+  height: 150px;
+}
